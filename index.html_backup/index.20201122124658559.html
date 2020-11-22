@@ -141,10 +141,6 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
-<li>$:/config/Navigation/openLinkFromInsideRiver</li>
-
-<li>$:/config/Navigation/openLinkFromOutsideRiver</li>
-
 <li>$:/core</li>
 
 <li>$:/Import</li>
@@ -154,24 +150,6 @@ Error message and password prompt
 <li>$:/plugins/felixhayashi/hotzone</li>
 
 <li>$:/plugins/felixhayashi/tiddlymap</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/tmap:central-topic</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/tmap:neighbour</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/edges</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/nodes</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Default/map</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/graph/views/Live View/filter/edges</li>
-
-<li>$:/plugins/felixhayashi/tiddlymap/misc/meta</li>
-
-<li>$:/plugins/felixhayashi/topstoryview</li>
 
 <li>$:/plugins/felixhayashi/vis</li>
 
@@ -187,33 +165,17 @@ Error message and password prompt
 
 <li>$:/StoryList</li>
 
-<li>$:/temp/focussedTiddler</li>
-
 <li>$:/temp/info-plugin</li>
-
-<li>$:/temp/tmap/currentTiddler</li>
-
-<li>$:/temp/tmap/nodes/Default</li>
 
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
-<li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
-
-<li>$:/view</li>
-
 <li>第三次作业</li>
 
 <li>第一次作业</li>
 
-<li>作业</li>
-
 <li>Draft of 'New Tiddler'</li>
-
-<li>Have fun with</li>
-
-<li>TiddlyMap!!</li>
 
 </ul>
 </p>
@@ -229,12 +191,6 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div title="$:/config/Navigation/openLinkFromInsideRiver">
-<pre>above</pre>
-</div>
-<div title="$:/config/Navigation/openLinkFromOutsideRiver">
-<pre>top</pre>
-</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.23-prerelease">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9785,7 +9741,7 @@ Error message and password prompt
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[$:/plugins/felixhayashi/topstoryview]]</pre>
+# [[$:/plugins/felixhayashi/hotzone]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -9823,7 +9779,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div author="Felix Küppers" core-version="&gt;=5.1.5" dependents="$:/plugins/felixhayashi/vis" depends="$:/plugins/felixhayashi/vis" description="TiddlyMap – Map drawing and topic visualization for your wiki" list="readme license" modified="20201122124750214" plugin-type="plugin" released="Sun, 27 Sep 2020 20:47:13 GMT" source="https://github.com/felixhayashi/TW5-TiddlyMap" suggested="$:/plugins/felixhayashi/topstoryview" title="$:/plugins/felixhayashi/tiddlymap" type="application/json" version="0.17.8+10010">
+<div author="Felix Küppers" core-version="&gt;=5.1.5" dependents="$:/plugins/felixhayashi/vis" depends="$:/plugins/felixhayashi/vis" description="TiddlyMap – Map drawing and topic visualization for your wiki" list="readme license" plugin-type="plugin" released="Sun, 27 Sep 2020 20:47:13 GMT" source="https://github.com/felixhayashi/TW5-TiddlyMap" suggested="$:/plugins/felixhayashi/topstoryview" title="$:/plugins/felixhayashi/tiddlymap" type="application/json" version="0.17.8+10010">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/plugins/felixhayashi/tiddlymap/layout&quot;: {
@@ -10469,83 +10425,6 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div description="The style is applied to the node that you marked as central topic in a map." priority="1" style="{&quot;font&quot;:{&quot;size&quot;:22,&quot;color&quot;:&quot;rgba(0,0,0,1)&quot;},&quot;shape&quot;:&quot;star&quot;}" title="$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/tmap:central-topic">
-<pre></pre>
-</div>
-<div description="Neighbours are all nodes that are not part of the original set of nodes (&quot;matches&quot;) but are connected (either outgoing or incoming) to a node of the original set." priority="1" style="{&quot;color&quot;:&quot;#565656&quot;}" title="$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/tmap:neighbour">
-<pre></pre>
-</div>
-<div filter="-[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]" title="$:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/edges">
-<pre></pre>
-</div>
-<div filter=" [field:tmap.id[1e79e953-9724-43d6-bc1b-19eeecc15bee]] [field:tmap.id[d954c0fe-9268-49e8-9f28-669fc43658f6]]" title="$:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/nodes">
-<pre></pre>
-</div>
-<div title="$:/plugins/felixhayashi/tiddlymap/graph/views/Default/map">
-<pre>{
- &quot;1e79e953-9724-43d6-bc1b-19eeecc15bee&quot;: {
-  &quot;x&quot;: 0,
-  &quot;y&quot;: 0
- },
- &quot;d954c0fe-9268-49e8-9f28-669fc43658f6&quot;: {
-  &quot;x&quot;: 100,
-  &quot;y&quot;: 100
- }
-}</pre>
-</div>
-<div config.neighbourhood_scope="1" config.physics_mode="true" config.refresh-triggers="$:/temp/tmap/currentTiddler" config.vis="{&quot;physics&quot;:{&quot;forceAtlas2Based&quot;:{&quot;springConstant&quot;:0.09}}}" created="20150331114808577" isview="true" modified="20200509212547688" title="$:/plugins/felixhayashi/tiddlymap/graph/views/Live View" type="text/vnd.tiddlywiki">
-<pre></pre>
-</div>
-<div filter="-[prefix[_]] " title="$:/plugins/felixhayashi/tiddlymap/graph/views/Live View/filter/edges">
-<pre>
-
-</pre>
-</div>
-<div created="20201122124734651" modified="20201122124742059" title="$:/plugins/felixhayashi/tiddlymap/misc/meta" type="application/json">
-<pre>{
-    &quot;originalVersion&quot;: &quot;0.17.8+10010&quot;,
-    &quot;dataStructureState&quot;: &quot;0.11.0&quot;,
-    &quot;showWelcomeMessage&quot;: false
-}</pre>
-</div>
-<div author="Felix Küppers" core-version="&gt;=5.1.5" dependents="" description="TopStoryView – Always scroll navigated tiddlers to the top" list="Configuration License Readme" plugin-type="plugin" released="" source="https://github.com/felixhayashi/TW5-TopStoryView" title="$:/plugins/felixhayashi/topstoryview" type="application/json" version="0.2.0">
-<pre>{
-    &quot;tiddlers&quot;: {
-        &quot;$:/plugins/felixhayashi/topstoryview/config.js&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/felixhayashi/topstoryview/config.js&quot;,
-            &quot;text&quot;: &quot;/*\\\n\ntitle: $:/plugins/felixhayashi/topstoryview/config.js\ntype: application/javascript\nmodule-type: library\n\n@preserve\n\n\\*/\n(function(){\&quot;use strict\&quot;;exports.config={classNames:{storyRiver:\&quot;tc-story-river\&quot;,backDrop:\&quot;story-backdrop\&quot;,tiddlerFrame:\&quot;tc-tiddler-frame\&quot;,tiddlerTitle:\&quot;tc-title\&quot;},references:{userConfig:\&quot;$:/config/topStoryView\&quot;,focussedTiddlerStore:\&quot;$:/temp/focussedTiddler\&quot;,refreshTrigger:\&quot;$:/temp/focussedTiddler/refresh\&quot;},checkbackTime:$tw.utils.getAnimationDuration()}})();&quot;,
-            &quot;type&quot;: &quot;application/javascript&quot;,
-            &quot;module-type&quot;: &quot;library&quot;
-        },
-        &quot;$:/plugins/felixhayashi/topstoryview/layout&quot;: {
-            &quot;text&quot;: &quot;html .tc-story-river:after {\n  content: \&quot;\&quot;;\n  display: block; }\n&quot;,
-            &quot;title&quot;: &quot;$:/plugins/felixhayashi/topstoryview/layout&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;tags&quot;: [
-                &quot;$:/tags/Stylesheet&quot;
-            ]
-        },
-        &quot;$:/plugins/felixhayashi/topstoryview/Configuration&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/felixhayashi/topstoryview/Configuration&quot;,
-            &quot;text&quot;: &quot;Please see the [[GitHub page|https://github.com/felixhayashi/TW5-TopStoryView]] for more information on the options.\n\nSave and reload the wiki to activate changes.\n\n&lt;table&gt;\n  &lt;tr&gt;\n    &lt;th align=\&quot;left\&quot;&gt;Scroll offset:&lt;/th&gt;\n    &lt;td&gt;&lt;$edit-text tiddler=\&quot;$:/config/topStoryView\&quot; field=\&quot;scroll-offset\&quot; tag=\&quot;input\&quot; default=\&quot;150px\&quot; /&gt;&lt;/td&gt;\n  &lt;/tr&gt;\n&lt;/table&gt;&quot;
-        },
-        &quot;$:/plugins/felixhayashi/topstoryview/License&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/felixhayashi/topstoryview/License&quot;,
-            &quot;text&quot;: &quot;This code is released under the BSD license. For the exact terms visit:\n\nhttps://github.com/felixhayashi/TW5-TopStoryView/blob/master/LICENSE&quot;
-        },
-        &quot;$:/plugins/felixhayashi/topstoryview/Readme&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/felixhayashi/topstoryview/Readme&quot;,
-            &quot;text&quot;: &quot;Please visit the [[GitHub page|https://github.com/felixhayashi/TW5-TopStoryView]] for more information.&quot;
-        },
-        &quot;$:/plugins/felixhayashi/topstoryview/top.js&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/felixhayashi/topstoryview/top.js&quot;,
-            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/felixhayashi/topstoryview/top.js\ntype: application/javascript\nmodule-type: storyview\n\nViews the story as a linear sequence\n\n@preserve\n\n\\*/\n(function(){\&quot;use strict\&quot;;var t=require(\&quot;$:/plugins/felixhayashi/topstoryview/config.js\&quot;).config;var e=\&quot;cubic-bezier(0.645, 0.045, 0.355, 1)\&quot;;var i=function(e){this.listWidget=e;this.pageScroller=new $tw.utils.PageScroller;this.pageScroller.scrollIntoView=this.scrollIntoView;this.pageScroller.storyRiverDomNode=document.getElementsByClassName(t.classNames.storyRiver)[0];var i=$tw.wiki.getTiddler(t.references.userConfig);var o=i?i.fields:{};$tw.hooks.addHook(\&quot;th-opening-default-tiddlers-list\&quot;,this.hookOpenDefaultTiddlers);var r=parseInt(o[\&quot;scroll-offset\&quot;]);this.pageScroller.scrollOffset=isNaN(r)?71:r;this.recalculateBottomSpace()};i.prototype.refreshStart=function(t,e){};i.prototype.refreshEnd=function(t,e){};i.prototype.hookOpenDefaultTiddlers=function(t){return t};i.prototype.navigateTo=function(t){var e=this.listWidget.findListItem(0,t.title);if(e===undefined)return;var i=this.listWidget.children[e];var o=i.findFirstDomNode();if(!(o instanceof Element))return;this.pageScroller.scrollIntoView(o)};i.prototype.insert=function(t){if(!t)return;var e=t.findFirstDomNode();if(!(e instanceof Element))return;this.startInsertAnimation(e,function(){this.recalculateBottomSpace()}.bind(this))};i.prototype.remove=function(t){if(!t)return;var e=t.findFirstDomNode();if(!(e instanceof Element)){t.removeChildDomNodes();return}var i=this.getLastFrame()===e;this.startRemoveAnimation(t,e,function(){t.removeChildDomNodes();this.recalculateBottomSpace();if(i){this.pageScroller.scrollIntoView(this.getLastFrame())}}.bind(this))};i.prototype.getLastFrame=function(){var t=this.listWidget.children[this.listWidget.children.length-1];return t?t.findFirstDomNode():null};i.prototype.recalculateBottomSpace=function(){var t=this.pageScroller.storyRiverDomNode;if(this.getLastFrame()){var e=this.getLastFrame().getBoundingClientRect();var i=window.innerHeight;if(e.height&lt;i){t.style[\&quot;paddingBottom\&quot;]=i-e.height+\&quot;px\&quot;;return}}t.style[\&quot;paddingBottom\&quot;]=\&quot;\&quot;};i.prototype.scrollIntoView=function(t){if(this.preventNextScrollAttempt){this.preventNextScrollAttempt=false}if(!t)return;var e=$tw.utils.getAnimationDuration();this.cancelScroll();this.startTime=Date.now();var i=$tw.utils.getScrollPosition();var o=t.getBoundingClientRect(),r={left:o.left+i.x,top:o.top+i.y,width:o.width,height:o.height};var n=function(t,e,i,o){if(t&lt;=i){return t}else if(e&lt;o&amp;&amp;i&lt;t+e-o){return t+e-o}else if(i&lt;t){return t}else{return i}},s=n(r.left,r.width,i.x,window.innerWidth),a=r.top-this.scrollOffset;if(s!==i.x||a!==i.y){var l=this,c;c=function(){var t;if(e&lt;=0){t=1}else{t=(Date.now()-l.startTime)/e}if(t&gt;=1){l.cancelScroll();t=1}t=$tw.utils.slowInSlowOut(t);window.scrollTo(i.x+(s-i.x)*t,i.y+(a-i.y)*t);if(t&lt;1){l.idRequestFrame=l.requestAnimationFrame.call(window,c)}};c()}};i.prototype.startInsertAnimation=function(t,i){var o=$tw.utils.getAnimationDuration();var r=window.getComputedStyle(t),n=parseInt(r.marginBottom,10),s=parseInt(r.marginTop,10),a=t.offsetHeight+s;setTimeout((function(){$tw.utils.setStyle(t,[{transition:\&quot;none\&quot;},{marginBottom:\&quot;\&quot;}]);i()}),o);$tw.utils.setStyle(t,[{transition:\&quot;none\&quot;},{marginBottom:-a+\&quot;px\&quot;},{opacity:\&quot;0.0\&quot;}]);$tw.utils.forceLayout(t);$tw.utils.setStyle(t,[{transition:\&quot;opacity \&quot;+o+\&quot;ms \&quot;+e+\&quot;, \&quot;+\&quot;margin-bottom \&quot;+o+\&quot;ms \&quot;+e},{marginBottom:n+\&quot;px\&quot;},{opacity:\&quot;1.0\&quot;}])};i.prototype.startRemoveAnimation=function(t,i,o){var r=$tw.utils.getAnimationDuration();var n=i.offsetWidth,s=window.getComputedStyle(i),a=parseInt(s.marginBottom,10),l=parseInt(s.marginTop,10),c=i.offsetHeight+l;setTimeout(o,r);$tw.utils.setStyle(i,[{transition:\&quot;none\&quot;},{transform:\&quot;translateX(0px)\&quot;},{marginBottom:a+\&quot;px\&quot;},{opacity:\&quot;1.0\&quot;}]);$tw.utils.forceLayout(i);$tw.utils.setStyle(i,[{transition:$tw.utils.roundTripPropertyName(\&quot;transform\&quot;)+\&quot; \&quot;+r+\&quot;ms \&quot;+e+\&quot;, \&quot;+\&quot;opacity \&quot;+r+\&quot;ms \&quot;+e+\&quot;, \&quot;+\&quot;margin-bottom \&quot;+r+\&quot;ms \&quot;+e},{transform:\&quot;translateX(-\&quot;+n+\&quot;px)\&quot;},{marginBottom:-c+\&quot;px\&quot;},{opacity:\&quot;0.0\&quot;}])};exports.top=i})();&quot;,
-            &quot;type&quot;: &quot;application/javascript&quot;,
-            &quot;module-type&quot;: &quot;storyview&quot;
-        }
-    }
-}</pre>
-</div>
 <div author="Felix Küppers" core-version="&gt;=5.0.0" dependents="" description="Visjs – TiddlyWiki5 plugin for the vis.js library" list="readme" plugin-type="plugin" source="https://github.com/felixhayashi/TW5-Vis.js" title="$:/plugins/felixhayashi/vis" type="application/json" version="">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -10657,17 +10536,14 @@ Error message and password prompt
 <div created="20201025141604120" modified="20201025141605360" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
-<div created="20201025140444890" modified="20201122124741807" title="$:/state/tab/sidebar--595412856">
-<pre>$:/plugins/felixhayashi/tiddlymap/hook/editor</pre>
+<div created="20201025140444890" modified="20201025140444890" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>yes</pre>
 </div>
-<div list="作业 GettingStarted" title="$:/StoryList">
+<div list="$:/Import [[Draft of 'New Tiddler']] GettingStarted" title="$:/StoryList">
 <pre></pre>
-</div>
-<div modified="20201122124736491" title="$:/temp/focussedTiddler">
-<pre>GettingStarted</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -10682,7 +10558,7 @@ Error message and password prompt
         },
         &quot;$:/info/startup-timestamp&quot;: {
             &quot;title&quot;: &quot;$:/info/startup-timestamp&quot;,
-            &quot;text&quot;: &quot;20201122124734339&quot;
+            &quot;text&quot;: &quot;20201122124457231&quot;
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
@@ -10730,12 +10606,6 @@ Error message and password prompt
         }
     }
 }</pre>
-</div>
-<div title="$:/temp/tmap/currentTiddler">
-<pre>作业</pre>
-</div>
-<div list="TiddlyMap!! [[Have fun with]]" title="$:/temp/tmap/nodes/Default">
-<pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23-prerelease">
 <pre>{
@@ -10846,18 +10716,12 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
-<pre>fixed-fluid</pre>
-</div>
-<div title="$:/view">
-<pre>top</pre>
-</div>
-<div created="20201116111346493" modified="20201116111436299" tags="" title="第三次作业" tmap.id="00ad9b1e-563c-425c-bb3f-53a71b3ebeb1">
+<div created="20201116111346493" modified="20201116111436299" tags="" title="第三次作业">
 <pre>1.	在现阶段的学习中，在信息交流的过程中的信息栈还有：商家到卖家的信息栈、医生到患者的信息栈等；商家到卖家的信息栈：商家（S）—&gt;运输公司—&gt;快递公司—&gt;快递员—&gt;卖家（R）：患者到医生的信息栈：患者（S）—&gt;医院—&gt;挂号—&gt;医生（R）；关于信息的分类：按信息的描述对象可分为自然信息、生物信息、机器信息和社会信息；按信息的性质可分为语法信息、语义信息、语用信息；按信息的记录方式划分可分为语声信息、图像信息、文字信息、数字信息等；
 2.	个人对自己的信息源的整理：（联合国教科文组织出版的《文献术语》定义为:个人为满足其信息需要而获得信息的来源，称为&quot;信息源&quot;。一切产生、生产、贮存、加工、传播信息的源泉都可以看作是信息源。）当我对书本知识不了解时就百度一下，而百度此时就是信息源；当我在外迷路时，我便打开地图看看地理位置，此时地图就是信息源；还有上课时有不懂的知识问老师时，此时老师就是信息源。
 </pre>
 </div>
-<div created="20201025134749184" modified="20201025150301370" tags="" title="第一次作业" tmap.id="55adb267-5674-43de-93e4-b104e55ec9ab">
+<div created="20201025134749184" modified="20201025150301370" tags="" title="第一次作业">
 <pre>一．	本案例中涉及到哪些个人信息？
 答：本案例中涉及到的个人信息有：个人身份证信息、个人的银行卡号信息、个人的手机号码、个人在各个支付平台的信息以及个人人脸照片等。
 二．	从信息管理角度我们该如何去组织管理这些信息？
@@ -10866,16 +10730,7 @@ Error message and password prompt
 答：（1）不要把重要的个人信息泄露出去或者保存在手机上，比如身份证号码和银行卡密码等重要信息。（2）注意保管好自己的手机，给自己的手机卡设置密码，手机也要设置一个屏幕锁。（3）手机如果丢失，在第一时间冻结所有银行卡，并把银行卡预留手机号码换掉。
 </pre>
 </div>
-<div created="20201122125003183" modified="20201122125015573" tags="" title="作业" tmap.id="6180ce99-12d0-49be-b17b-ff02cae9cff8">
-<pre></pre>
-</div>
 <div created="20201122124503807" draft.of="New Tiddler" draft.title="New Tiddler" modified="20201122124503807" tags="" title="Draft of 'New Tiddler'">
-<pre></pre>
-</div>
-<div created="20201122124750199" modified="20201122124750199" title="Have fun with" tmap.edges="{&quot;8d3f4deb-77ab-4085-9837-28e83054b319&quot;:{&quot;to&quot;:&quot;d954c0fe-9268-49e8-9f28-669fc43658f6&quot;,&quot;type&quot;:&quot;tmap:unknown&quot;}}" tmap.id="1e79e953-9724-43d6-bc1b-19eeecc15bee">
-<pre></pre>
-</div>
-<div created="20201122124750207" modified="20201122124750207" title="TiddlyMap!!" tmap.id="d954c0fe-9268-49e8-9f28-669fc43658f6">
 <pre></pre>
 </div>
 
